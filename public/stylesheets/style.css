@@ -80,3 +80,10 @@ a {
   border-top: 2px solid rgb(107, 35, 184);; /* Adjust the width here (2px in this example) */
   height: 10px; 
 }
+
+#image-logo{
+  width: 100px;
+  height: 80px;
+  margin: -25px -5px -25px 0px;
+  border-radius: 20%;
+}
