@@ -2,7 +2,9 @@ html, body {
   height: 90%;
   margin: 0;
   padding: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 body {
@@ -13,12 +15,14 @@ body {
 }
 #main{
   margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 a {
   color: #00B7FF;
 }
 #navigation-bar {
-  background-color: #333;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,26 +47,36 @@ a {
 
 #navigation-bar li {
   margin-right: 10px; /* Add margin between list items (adjust as needed) */
+  font-weight: 800;
 }
 
 #navigation-bar a {
   display: block;
-  color: #fff;
+  color: black;
   text-decoration: none;
   padding: 10px 20px;
 }
 
 #navigation-bar a:hover {
-  background-color: #555;
+  color: rgb(107, 35, 184);
+  text-decoration: underline;
 }
-
+#image-logo{
+  color: rgb(107, 35, 184);
+  font-weight: 800;
+}
 
 #title-section{
-  background-color:darkcyan;
+  
 }
 #main-body{
-  background-color: chartreuse;
+ 
 }
 #footer-bar{
-  background-color: blueviolet;
+  
+}
+.thicker-hr{
+  border: none;
+  border-top: 2px solid rgb(107, 35, 184);; /* Adjust the width here (2px in this example) */
+  height: 10px; 
 }
