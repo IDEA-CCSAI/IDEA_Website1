@@ -1,87 +1,106 @@
-html, body {
-  height: 90%;
+body {
   margin: 0;
   padding: 0;
-  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-family: 'Oswald', sans-serif;
-
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-body {
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#main{
-  
-  
-}
-a {
-  color: #00B7FF;
-}
 #navigation-bar {
-  margin: 10px;
+  margin: 0;
   display: flex;
-  align-items: center;
-  justify-content:center;
-  margin-left: 10px;
-}
+  align-items: center; /* Vertically align items in the navigation bar */
+  justify-content: flex-start; /* To evenly space the navigation items */
+  background-color: white; /* Optional background color for the navigation bar */
+  padding: 10px; /* Optional padding for spacing */
+  
+  margin-bottom: 0px;
+  border-style:inherit;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
 
-.flex-container {
-  display: flex;
-  align-items: center;
+
+  
+  
+  
+}
+#image-logo {
+  margin-right: 40px; /* Add some spacing between the logo and navigation items */
+  max-height: 60px; /* Set a maximum height for the logo */
+  
+  margin-left: 20px;
+  border-radius: 50%;
 }
 
 #navigation-bar ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  display: flex; /* Display list items horizontally */
-  flex-direction: row; /* Set the direction to horizontal */
-}
+  margin-left: 20px;
+  display: flex;
 
-#navigation-bar p {
-  margin-right: auto; /* Push the <p> element to the far left */
 }
-
+ul{
+  
+}
 #navigation-bar li {
-  margin-right: 10px; /* Add margin between list items (adjust as needed) */
-  font-weight: 800;
+  margin: 0 18px; /* Add some spacing between each navigation item */
 }
 
 #navigation-bar a {
-  display: block;
-  color: black;
   text-decoration: none;
-  padding: 10px 20px;
-}
-
-#navigation-bar a:hover {
-  color: rgb(107, 35, 184);
-  text-decoration: underline;
-}
-#image-logo{
-  color: rgb(107, 35, 184);
-  font-weight: 800;
-}
-
-#title-section{
-  
-}
-#main-body{
+  color: black; /* Text color for the links */
  
-}
-#footer-bar{
   
 }
-.thicker-hr{
+#navigation-bar li :hover{
+  text-decoration: underline;
+  text-decoration-color: purple ;
+  text-underline-offset: 5px;
+  
+  
+  
+}
+#navigation-bar a {
+  
+  text-underline-offset: 0.6em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+ 
+  
+}
+#navigation-bar a:hover {
+  text-decoration-color: purple;
+  text-underline-offset: 0.4em;
+ 
   
 }
 
-#image-logo{
-  width: 100px;
-  height: 80px;
-  margin: -25px -5px -25px 0px;
-  border-radius: 20%;
+
+
+#main{
+  margin: 0;
+  background-color: rgb(245,236,228);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: space-between; /* Distribute space between the boxes */
+  
+
+
+}
+#box-one{
+  flex-basis: 60%;
+  background-color: aqua;
+  padding-right: 10px;
+}
+
+#box-two {
+  flex-basis: 40%; /* Set each box to take 50% width with some margin in between */
+  background-color: #f0f0f0; /* Background color for the boxes */
+  padding: 10px; /* Add padding to the boxes */
+}
+
+
+
+#footer{
+  border:  1px solid green;
 }
