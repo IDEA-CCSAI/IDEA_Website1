@@ -8,24 +8,24 @@ html, body {
 }
 
 body {
-  background-image: url('../images/anotherbackground2.jpg');
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #main{
-  margin: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  
+  
 }
 a {
   color: #00B7FF;
 }
 #navigation-bar {
-  
+  margin: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
+  margin-left: 10px;
 }
 
 .flex-container {
@@ -76,9 +76,7 @@ a {
   
 }
 .thicker-hr{
-  border: none;
-  border-top: 2px solid rgb(107, 35, 184);; /* Adjust the width here (2px in this example) */
-  height: 10px; 
+  
 }
 
 #image-logo{
