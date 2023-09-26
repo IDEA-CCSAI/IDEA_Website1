@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 #navigation-bar {
@@ -16,8 +17,13 @@ body {
   border-style:inherit;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
+  font-size: 17px;
 
 
+  padding-left: 50px;
+
+  
+  border-bottom: 1px solid black
   
   
   
@@ -84,23 +90,92 @@ ul{
   display: flex;
   justify-content: space-between; /* Distribute space between the boxes */
   
-
+  padding-left: 50px;
+  padding-right: 80px;
 
 }
 #box-one{
   flex-basis: 60%;
-  background-color: aqua;
+  
   padding-right: 10px;
+  
+  padding: 20px;
+  padding-top: 30px;
 }
 
 #box-two {
   flex-basis: 40%; /* Set each box to take 50% width with some margin in between */
-  background-color: #f0f0f0; /* Background color for the boxes */
   padding: 10px; /* Add padding to the boxes */
 }
 
 
 
 #footer{
-  border:  1px solid green;
+ 
+}
+
+#main #box-one #title{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(236,179,47);
+  font-size: 60px;
+  text-align: center;
+  font-weight:900;
+
+}
+#main #box-one div p{
+  padding-top: 20px;
+  padding-bottom: 65px;
+  font-size: 17px;
+}
+.name-group{
+  color: purple;
+  font-weight: bold;
+}
+
+div button{
+  font-size: 20px;
+  padding: 4px;
+  
+  width: 115px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+div button a{
+  text-decoration: none;
+}
+div #button-Start{
+  
+  background-color: purple;
+  border: 1px solid black;
+  border: none;
+  border-radius: 3px;
+}
+div #button-Start a{
+  
+  color: white;
+  
+}
+div #button-ContactUs{
+  
+  border: none;
+  border-radius: 3px;
+  border: 1px solid purple;
+  
+}
+div #button-ContactUs a{
+  
+  color: purple;
+  
+}
+
+#about-us{
+  background-color: purple;
+}
+
+#about-us #box-one{
+  border: 1px solid black;
+  
+}
+#about-us #box-two{
+  border: 1px solid green;
 }
