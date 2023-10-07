@@ -3,6 +3,7 @@
   <head>
   
   <title><%= title %></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Oswald:wght@500&family=Poppins:wght@200;600&family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -49,22 +50,93 @@
       </div>
 
       <div id="about-us">
+
+        <div id="about-us-one">
+
+        
         <div id="box-one">
           <!--Image-->
+          <div>
+            <img id="image-pic-about" src="./images/aboutimg.png" width="500">
+          </div>
           
         </div>
           
         <div id="box-two">
-          <!--Infromation-->
-          <div>
-            <p>Hello</p>
+          <div id="mission">
+            <h1>Mission Statement</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nesciunt ducimus voluptatem blanditiis rem, praesentium facere repellat, voluptas in culpa, dolor doloribus nam. Officia cumque non, omnis distinctio laborum, libero numquam vero ex, enim commodi minima expedita asperiores incidunt nam nihil magni pariatur quaerat quos eum labore aliquid assumenda doloribus.</p>
           </div>
+          <div id="vision">
+            <h1>Vision Statement</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellendus repellat accusamus eveniet ex ea asperiores? Pariatur doloremque perspiciatis itaque vitae eum ad, nihil illo cupiditate delectus ab deleniti dolorum eaque, nulla in ipsum dignissimos quidem magnam voluptates impedit quibusdam officiis quis! Dolor laudantium eos est amet repellat tempora quasi!</p>
+          </div>
+          <button id="previous"><i class="fa-solid fa-arrow-left"></i></button>
+          <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
         </div>
 
+        <div id="about-us-two">
+
+          <div id="container-one">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, repudiandae?</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eos!</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quam.</div>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quaerat?</div>
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, vero?</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facere!</div>
+          </div>
+          
+        </div>
+      
       </div>
+
+      
+
+      
+
+    
+
+      
+
 
       <div id="footer">
         <p>This is the footer</p>
       </div>
+
+      <script>
+        const missionDiv = document.getElementById("mission");
+        const visionDiv = document.getElementById("vision");
+        const previousButton = document.getElementById("previous");
+        const nextButton = document.getElementById("next");
+      
+        let currentView = "mission"; // Start with mission statement
+      
+        previousButton.addEventListener("click", () => {
+          if (currentView === "mission") {
+            missionDiv.style.display = "none";
+            visionDiv.style.display = "block";
+            currentView = "vision";
+          } else {
+            missionDiv.style.display = "block";
+            visionDiv.style.display = "none";
+            currentView = "mission";
+          }
+        });
+      
+        nextButton.addEventListener("click", () => {
+          if (currentView === "mission") {
+            missionDiv.style.display = "none";
+            visionDiv.style.display = "block";
+            currentView = "vision";
+          } else {
+            missionDiv.style.display = "block";
+            visionDiv.style.display = "none";
+            currentView = "mission";
+          }
+        });
+      </script>
+
+      
   </body>
 </html>
