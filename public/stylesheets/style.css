@@ -10,9 +10,9 @@ body {
   display: flex;
   align-items: center; /* Vertically align items in the navigation bar */
   justify-content: flex-start; /* To evenly space the navigation items */
-  background-color: white; /* Optional background color for the navigation bar */
+  background-color: rgb(245,236,228);; /* Optional background color for the navigation bar */
   padding: 10px; /* Optional padding for spacing */
-  
+
   margin-bottom: 0px;
   border-style:inherit;
   font-family: 'Roboto Condensed', sans-serif;
@@ -326,5 +326,48 @@ div #button-ContactUs a{
   font-weight: bold;
 }
 #footer{
-  background-color: rgb(245,236,228);
+  background-color: purple;
+  border: 1px solid purple;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+#footer div{
+  padding: 0;
+  margin: 0;
+  
+  
+  
+
+}
+
+#footer-title, #footer-body{
+  color: white;
+  font-size: 15px;
+}
+#footer-title{
+  font-size: 18px;
+}
+#copyright-message{
+  color: white;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#social-icons {
+  display: flex;
+  gap: 10px; /* Adjust the gap to control the space between the icons */
+}
+#social-icons div {
+  padding: 5px;
+  margin-bottom: 10px;
 }
