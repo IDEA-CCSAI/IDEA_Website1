@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #navigation-bar {
@@ -10,28 +10,27 @@ body {
   display: flex;
   align-items: center; /* Vertically align items in the navigation bar */
   justify-content: flex-start; /* To evenly space the navigation items */
-  background-color: rgb(245,236,228);; /* Optional background color for the navigation bar */
+  background-color: rgb(
+    245,
+    236,
+    228
+  ); /* Optional background color for the navigation bar */
   padding: 10px; /* Optional padding for spacing */
 
   margin-bottom: 0px;
-  border-style:inherit;
-  font-family: 'Roboto Condensed', sans-serif;
+  border-style: inherit;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 17px;
 
-
   padding-left: 50px;
 
-  
-  border-bottom: 1px solid black
-  
-  
-  
+  border-bottom: 1px solid black;
 }
 #image-logo {
   margin-right: 40px; /* Add some spacing between the logo and navigation items */
   max-height: 60px; /* Set a maximum height for the logo */
-  
+
   margin-left: 20px;
   border-radius: 50%;
 }
@@ -41,10 +40,8 @@ body {
   padding: 0;
   margin-left: 20px;
   display: flex;
-
 }
-ul{
-  
+ul {
 }
 #navigation-bar li {
   margin: 0 18px; /* Add some spacing between each navigation item */
@@ -53,178 +50,140 @@ ul{
 #navigation-bar a {
   text-decoration: none;
   color: black; /* Text color for the links */
- 
-  
 }
-#navigation-bar li :hover{
+#navigation-bar li :hover {
   text-decoration: underline;
-  text-decoration-color: purple ;
+  text-decoration-color: purple;
   text-underline-offset: 5px;
-  
-  
-  
 }
 #navigation-bar a {
-  
   text-underline-offset: 0.6em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
- 
-  
 }
 #navigation-bar a:hover {
   text-decoration-color: purple;
   text-underline-offset: 0.4em;
- 
-  
 }
 
-
-
-#main{
+#main {
   margin: 0;
-  background-color: rgb(245,236,228);
+  background-color: rgb(245, 236, 228);
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
 
   display: flex;
   justify-content: space-between; /* Distribute space between the boxes */
-  
+
   padding-left: 50px;
   padding-right: 80px;
 
   padding-bottom: 50px;
-  
-
 }
-#box-one{
+#box-one {
   flex-basis: 60%;
   padding-right: 10px;
   padding: 20px;
   padding-top: 30px;
-  
 }
 
 #box-two {
   flex-basis: 40%; /* Set each box to take 50% width with some margin in between */
   padding: 10px; /* Add padding to the boxes */
-
-  
 }
 
-
-
-
-
-#main #box-one #title{
-  font-family: 'Roboto Condensed', sans-serif;
-  color: rgb(236,179,47);
+#main #box-one #title {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
   font-size: 60px;
   text-align: center;
-  font-weight:900;
-
+  font-weight: 900;
 }
-#main #box-one div p{
+#main #box-one div p {
   padding-top: 20px;
   padding-bottom: 65px;
   font-size: 17px;
 }
-.name-group{
+.name-group {
   color: purple;
   font-weight: bold;
 }
 
-div button{
+div button {
   font-size: 20px;
   padding: 4px;
-  
+
   width: 115px;
   margin-right: 5px;
   cursor: pointer;
 }
-div button a{
+div button a {
   text-decoration: none;
 }
-div #button-Start{
-  
+div #button-Start {
   background-color: purple;
   border: 1px solid black;
   border: none;
   border-radius: 6px;
 }
-div #button-Start a{
-  
+div #button-Start a {
   color: white;
-  
 }
-div #button-ContactUs{
-  
+div #button-ContactUs {
   border: none;
   border-radius: 6px;
   border: 1px solid purple;
-  
 }
-div #button-ContactUs a{
-  
+div #button-ContactUs a {
   color: purple;
-  
 }
 
-
-#about-us-one{
+#about-us-one {
   background-color: purple;
   display: flex;
   justify-content: space-between; /* Distribute space between the boxes */
-  
+
   padding-left: 50px;
   padding-right: 80px;
 }
 
-
-#about-us #box-one{
-  
+#about-us #box-one {
   flex-basis: 35%;
-  
+
   padding-right: 10px;
-  
+
   padding: 20px;
   padding-top: 30px;
-  
 }
-#about-us #box-two{
-  
+#about-us #box-two {
   flex-basis: 65%; /* Set each box to take 50% width with some margin in between */
   padding: 10px; /* Add padding to the boxes */
-  
+
   text-align: center;
   padding-top: 70px;
-
 }
-#about-us #box-two h1{
-  
-  color: rgb(236,179,47);
-  font-family: 'Roboto Condensed', sans-serif;
+#about-us #box-two h1 {
+  color: rgb(236, 179, 47);
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
 
-#image-pic-about{
+#image-pic-about {
   border-radius: 5%;
 }
 
-#about-us p{
+#about-us p {
   color: white;
   font-size: 18px;
 }
 
-
-
 #vision {
   display: none;
-  
 }
 
-#previous, #next {
+#previous,
+#next {
   background-color: white;
   color: purple;
   border: 1px solid purple;
@@ -235,22 +194,15 @@ div #button-ContactUs a{
   border-radius: 20px;
 }
 
-
-
-
-
-#about-us-two{
+#about-us-two {
   background-color: white;
- 
+
   padding-top: 45px;
   padding-left: 50px;
   padding-right: 80px;
-  
- 
-
 }
-#benefit-title{
-  color: rgb(236,179,47);
+#benefit-title {
+  color: rgb(236, 179, 47);
   text-align: center;
   margin-top: -10px;
 }
@@ -262,9 +214,7 @@ div #button-ContactUs a{
   align-items: flex-start;
   padding-left: 30px;
   padding-right: 30px;
-  
 }
-
 
 #container-one > div {
   flex: 0 0 calc(30.33% - 60px); /* 20px is the total margin between divs */
@@ -272,25 +222,21 @@ div #button-ContactUs a{
   text-align: center;
   background-color: white;
   padding: 10px;
-  
-  
-  
 }
-#container-one div{
-  
+#container-one div {
 }
-#container-one > div > h3{
+#container-one > div > h3 {
   color: purple;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 20px;
-  background-color: rgb(245,236,228);
+  background-color: rgb(245, 236, 228);
   padding: 10px;
   margin-bottom: 40px;
   border-radius: 10px;
 }
-#container-one > div > p{
+#container-one > div > p {
   color: black;
-  
+
   margin-top: -20px;
 }
 
@@ -303,21 +249,20 @@ div #button-ContactUs a{
 
 #most-current-activities {
   text-align: center;
-  
 }
 #container-two {
   display: flex;
   justify-content: center;
 }
-#most-current-activities h1{
-  color: rgb(236,179,47);
+#most-current-activities h1 {
+  color: rgb(236, 179, 47);
 }
 
 #container-two div {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: purple;; /* Change the background color as needed */
+  background-color: purple; /* Change the background color as needed */
   margin: 20px;
   display: flex;
   justify-content: center;
@@ -325,7 +270,7 @@ div #button-ContactUs a{
   color: white;
   font-weight: bold;
 }
-#footer{
+#footer {
   background-color: purple;
   border: 1px solid purple;
   padding: 0;
@@ -337,23 +282,22 @@ div #button-ContactUs a{
   padding-right: 250px;
 }
 
-#footer div{
+#footer div {
   padding: 0;
   margin: 0;
-  
-  
-  
-
 }
 
-#footer-title, #footer-body{
+#footer-title,
+#footer-body {
   color: white;
   font-size: 15px;
 }
-#footer-title{
-  font-size: 18px;
+#footer-title {
+  font-size: 20px;
+  color: gold;
+  font-weight: bold;
 }
-#copyright-message{
+#copyright-message {
   color: white;
 }
 
@@ -361,13 +305,17 @@ div #button-ContactUs a{
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
+
 #social-icons {
   display: flex;
-  gap: 10px; /* Adjust the gap to control the space between the icons */
+  gap: 20px;
 }
 #social-icons div {
   padding: 5px;
   margin-bottom: 10px;
+}
+#social-icons div i {
+  font-size: 20px;
+  color: gold;
 }
