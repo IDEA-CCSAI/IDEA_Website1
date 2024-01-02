@@ -1,29 +1,35 @@
 <%- include('header') %>
 
-<div id="main">
+<div id="main-contact">
     <div class="container-form">
-        <form action="">
+        <form>
+            <h1>Get In Touch</h1>
+            <input type="hidden" name="access_key" value="c3caaf24-7c60-4d16-a209-93e94b7046b2">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input class="item" type="text" id="fname" name="firstname" placeholder="Your name..">
         
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input class="item" type="text" id="lname" name="lastname" placeholder="Your last name..">
         
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email address..">
+            <input class="item" type="email" id="email" name="email" placeholder="Your email address..">
 
+            <label for="message">Message</label>
+            <textarea class="item" name="message" id="message" cols="30" rows="10" placeholder="Your message: "></textarea>
+
+            <label for="subject">Subject</label>
+            <input class="item" type="text" name="subject" id="subject" placeholder="enter subject">
+        
             
         
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit" id="submitFormBtn">
+            <input type="submit"  value="Submit" id="submitFormBtn">
           </form>
-
     </div>
 </div>
 
 <%- include('footer') %>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./javascript/script2.js"></script>
 </body>
-<script type="text/javascript" src="./javascript/script2.js"></script>
 </html>
