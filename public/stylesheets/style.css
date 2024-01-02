@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ 
 }
 
 #navigation-bar {
@@ -276,10 +277,11 @@ div #button-ContactUs a {
   padding: 0;
   margin: 0;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 250px;
   padding-right: 250px;
+
 }
 
 #footer div {
@@ -318,4 +320,125 @@ div #button-ContactUs a {
 #social-icons div i {
   font-size: 20px;
   color: gold;
+}
+
+#main-about{
+
+
+
+  margin: 0;
+  background-color: rgb(245, 236, 228);
+  padding: 5px;
+
+  padding-left: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+}
+#main-about h1{
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
+  font-size: 40px;
+  font-weight: 900;
+
+}
+#roles-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 10px;
+  
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  
+  
+}
+.role-container{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#roles-container .role-container img{
+  border-radius: 90%;
+  opacity: 0.5;
+}
+#roles-container .role-container img:hover{
+  opacity: 1;
+}
+.role-name{
+  color: purple;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 1800px){
+  #maintenance-img {
+    margin-bottom: 440px;/* Change background color for smaller screens */
+  }
+}
+@media (max-width: 1700px){
+  #maintenance-img {
+    margin-bottom: 225px;/* Change background color for smaller screens */
+  }
+}
+
+@media (min-width: 1800px){
+  #main-contact {
+    margin-bottom: 468px;/* Change background color for smaller screens */
+  }
+}
+
+@media (max-width: 1700px){
+  #main-contact {
+    margin-bottom: 255px;/* Change background color for smaller screens */
+  }
+}
+.animate__animated.animate__rubberBand{
+  --animate-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@media (min-width: 1800px){
+  #main-project {
+    margin-bottom: 390px;/* Change background color for smaller screens */
+  }
+}
+
+@media (max-width: 1700px){
+  #main-project{
+    margin-bottom: 268px;/* Change background color for smaller screens */
+  }
+}
+
+
+
+@media (min-width: 1800px){
+  #main-faq {
+    margin-bottom: 615px;/* Change background color for smaller screens */
+  }
+}
+
+@media (max-width: 1700px){
+  #main-faq{
+    margin-bottom: 268px;/* Change background color for smaller screens */
+  }
+}
+
+
+@media (min-width: 1800px){
+  #main-join {
+    margin-bottom: 645px;/* Change background color for smaller screens */
+  }
+}
+
+@media (max-width: 1700px){
+  #main-join{
+    margin-bottom: 428px;/* Change background color for smaller screens */
+  }
 }
