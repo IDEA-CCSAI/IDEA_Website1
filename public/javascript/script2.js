@@ -58,7 +58,7 @@ function checkInput(){
 form.addEventListener("submit", (e)=>{
     e.preventDefault();
     checkInput()
-    //sendEmail();
+    sendEmail();
 })
 
 
