@@ -379,13 +379,21 @@ div #button-ContactUs a {
 
 @media (min-width: 1800px){
   #maintenance-img {
-    margin-bottom: 440px;/* Change background color for smaller screens */
+    margin-bottom: 340px;/* Change background color for smaller screens */
   }
 }
 @media (max-width: 1700px){
   #maintenance-img {
-    margin-bottom: 225px;/* Change background color for smaller screens */
+    margin-bottom: 125px;/* Change background color for smaller screens */
   }
+}
+#maintenance-img{
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 @media (min-width: 1800px){
@@ -404,20 +412,62 @@ div #button-ContactUs a {
   animation-iteration-count: infinite;
 }
 
+
+
+#main-project{
+  margin: 0;
+  background-color: rgb(245, 236, 228);
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+#main-project h1{
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
+  font-size: 40px;
+  font-weight: 900;
+}
+#main-project h1,p{
+  text-align: center;
+
+}
+#main-project p{
+  font-family: system-ui;
+}
+#main-project img{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
 @media (min-width: 1800px){
-  #main-project {
-    margin-bottom: 390px;/* Change background color for smaller screens */
+  #main-project img{
+    margin-bottom: 190px;/* Change background color for smaller screens */
   }
 }
 
 @media (max-width: 1700px){
-  #main-project{
-    margin-bottom: 268px;/* Change background color for smaller screens */
+  #main-project img{
+    margin-bottom: 50px;
   }
 }
 
+#main-signin{
+  margin: 0;
+  background-color: rgb(245, 236, 228);
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
 
-
+#main-signin h1{
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
 @media (min-width: 1800px){
   #main-faq {
     margin-bottom: 615px;/* Change background color for smaller screens */
@@ -426,7 +476,7 @@ div #button-ContactUs a {
 
 @media (max-width: 1700px){
   #main-faq{
-    margin-bottom: 268px;/* Change background color for smaller screens */
+    margin-bottom: 400px;/* Change background color for smaller screens */
   }
 }
 
