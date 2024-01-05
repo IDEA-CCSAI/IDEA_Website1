@@ -396,17 +396,22 @@ div #button-ContactUs a {
   border-radius: 10px;
 }
 
-@media (min-width: 1800px){
-  #main-contact {
-    margin-bottom: 468px;/* Change background color for smaller screens */
-  }
+
+#main-contact{
+  margin: 0;
+  background-color: rgb(245, 236, 228);
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+#main-contact h1{
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
+  font-size: 40px;
+  font-weight: 900;
 }
 
-@media (max-width: 1700px){
-  #main-contact {
-    margin-bottom: 255px;/* Change background color for smaller screens */
-  }
-}
 .animate__animated.animate__rubberBand{
   --animate-duration: 2s;
   animation-iteration-count: infinite;
@@ -468,27 +473,161 @@ div #button-ContactUs a {
   font-weight: 900;
   text-align: center;
 }
+
+
+#main-faq{
+  margin: 0;
+  background-color: rgb(245, 236, 228);
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
 @media (min-width: 1800px){
   #main-faq {
-    margin-bottom: 615px;/* Change background color for smaller screens */
+    padding-bottom: 420px;/* Change background color for smaller screens */
   }
 }
 
 @media (max-width: 1700px){
   #main-faq{
-    margin-bottom: 400px;/* Change background color for smaller screens */
+    padding-bottom: 210px;
   }
 }
+#main-join{
+  margin: 0;
+  background-color: rgb(245, 236, 228);
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+#main-join h1{
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+#main-join button{
+  font-size: 20px;
+  padding: 4px;
+  width: 115px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+
+}
+#main-join button a{
+  text-decoration: none;
+  color: white;
+}
+#main-join button{
+  background-color: purple;
+  border: 1px solid black;
+  border: none;
+  border-radius: 6px;
+}
+
 
 
 @media (min-width: 1800px){
   #main-join {
-    margin-bottom: 645px;/* Change background color for smaller screens */
+    padding-bottom: 500px;/* Change background color for smaller screens */
   }
 }
 
 @media (max-width: 1700px){
   #main-join{
-    margin-bottom: 428px;/* Change background color for smaller screens */
+    padding-bottom: 280px;
+  }
+}
+
+#main-faq .question-box{
+
+}
+#main-faq h1{
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(236, 179, 47);
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#main-faq .question-box summary{
+  border: 1px solid grey;
+  background-color: gainsboro;
+  padding: 10px;
+  list-style: none;
+}
+#main-faq .question-box div{
+  background-color: whitesmoke;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+
+summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.icon::before {
+  content: "+";
+  float: right;
+}
+
+details[open] summary .icon::before {
+  content: "-";
+}
+
+.container-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+form {
+  text-align: left;
+  width: 300px; 
+  border: 1px solid black;
+  
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.item {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%; 
+}
+
+@media (min-width: 1800px){
+  #main-contact {
+    padding-bottom: 130px;
+  }
+  form{
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .container-form{
+    height: 60vh; 
+  }
+}
+
+@media (max-width: 1700px){
+  #main-contact {
+    padding-bottom: 10px;
+  }
+  form{
+    padding: 15px;
+  }
+  .container-form{
+    height: 79vh; 
   }
 }
