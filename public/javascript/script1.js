@@ -1,31 +1,31 @@
-const missionDiv = document.getElementById("mission");
-const visionDiv = document.getElementById("vision");
+const whoDiv = document.getElementById("who-container");
+const visionDiv = document.getElementById("what-container");
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 const formSubmit_BTN = document.querySelector('#submitFormBtn');
 console.log(formSubmit_BTN)
-let currentView = "mission";
+let currentView = "who-container";
 
 previousButton.addEventListener("click", () => {
-  if (currentView === "mission") {
-    missionDiv.style.display = "none";
+  if (currentView === "who-container") {
+    whoDiv.style.display = "none";
     visionDiv.style.display = "block";
-    currentView = "vision";
+    currentView = "what-container";
   } else {
-    missionDiv.style.display = "block";
+    whoDiv.style.display = "block";
     visionDiv.style.display = "none";
-    currentView = "mission";
+    currentView = "who-container";
   }
 });
 
 nextButton.addEventListener("click", () => {
-  if (currentView === "mission") {
-    missionDiv.style.display = "none";
+  if (currentView === "who-container") {
+    whoDiv.style.display = "none";
     visionDiv.style.display = "block";
-    currentView = "vision";
+    currentView = "what-container";
   } else {
-    missionDiv.style.display = "block";
+    whoDiv.style.display = "block";
     visionDiv.style.display = "none";
-    currentView = "mission";
+    currentView = "who-container";
   }
 });

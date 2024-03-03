@@ -1,32 +1,27 @@
 <%- include('header') %>
+  <div id="main-top" class="main-top">
+    
     <div id="main">
+      
       <div id="box-one">
-        <div id="title" class="animate__animated animate__rubberBand">IDEA</div>
+        
         <div>
-          <p>
-            <span class="name-group"
-              >Innovative Developers and Engineers Association (IDEA)</span
-            >
-            is a student organization that aims to create a collaborative,
-            innovative, and social space for students to connect and grow.
-            Students can share their knowledge, improve their skills, network,
-            learn about career options, and keep up with the latest developments
-            in software engineering.
+          <div id="title" class="title">Innovative Developers and Engineers Association</div>
+          <p id="intro" class="intro">
+            Where ideas collide and innovation thrives. Explore boundless horizons 
+            and code the future with us.
           </p>
         </div>
-        <div>
-          <button id="button-Start"><a href="/">Start</a></button>
-          <button id="button-ContactUs">
-            <a href="contact">Contact Us</a>
-          </button>
+        <div id="join-container" class="join-container">
+          <a href="join" id="join-button" class="btn" >Become a Member</a>
         </div>
       </div>
-
+      
       <div id="box-two">
         <img
           id="image-pic"
           src="./images/index-pic1_preview_rev_1.png"
-          width="650"
+          width="600"
         />
       </div>
     </div>
@@ -41,96 +36,55 @@
         </div>
 
         <div id="box-two">
-          <div id="mission">
-            <h1>Mission Statement</h1>
+          <div id="who-container">
+            <h1>Who We Are</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              nesciunt ducimus voluptatem blanditiis rem, praesentium facere
-              repellat, voluptas in culpa, dolor doloribus nam. Officia cumque
-              non, omnis distinctio laborum, libero numquam vero ex, enim
-              commodi minima expedita asperiores incidunt nam nihil magni
-              pariatur quaerat quos eum labore aliquid assumenda doloribus.
+              A student-run technology club, dedicated to creating a 
+              collaborative, innovative, and welcoming social space for students
+              at Centennial College to connect, learn, and grow. 
+            </p>
+            <p>
+              Our club values diversity, creativity, and continuous learning. 
+              We empower our members to pursue their interests and make meaningful contributions 
+              to the tech community and beyond.
             </p>
           </div>
-          <div id="vision">
-            <h1>Vision Statement</h1>
+          <div id="what-container">
+            <h1>What We Do</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              repellendus repellat accusamus eveniet ex ea asperiores? Pariatur
-              doloremque perspiciatis itaque vitae eum ad, nihil illo cupiditate
-              delectus ab deleniti dolorum eaque, nulla in ipsum dignissimos
-              quidem magnam voluptates impedit quibusdam officiis quis! Dolor
-              laudantium eos est amet repellat tempora quasi!
+              Through our engaging events and workshops,
+              we provide hands-on training, practical insights, and the resources needed 
+              to excel in the tech industry.
+              We also prioritize the development of essential soft skills
+              through networking events, co-op panels, and
+              community building events.
+            </p>
+            <p>
+              These opportunities allow students to gain insights into various career paths, 
+              build valuable connections, and explore diverse interests.
             </p>
           </div>
           <button id="previous"><i class="fa-solid fa-arrow-left"></i></button>
           <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
-
-      <div id="about-us-two">
-        <h1 id="benefit-title">What benefits will it have on our students?</h1>
-
-        <div id="container-one">
-          <div>
-            <h3>Skills Development</h3>
-            <p>
-              Students can improve their technical skills, soft skills, and gain
-              hands-on experience by participating in coding projects,
-              hackathons, workshops, and other activities organized by the club.
-            </p>
-          </div>
-          <div>
-            <h3>Co-op, Internship, and Career Exploration</h3>
-            <p>
-              Our Executive and Founding members have co-op and internship
-              experiences within various tech fields. Through IDEA Chats,
-              workshops, and talks by industry professionals, students can gain
-              insights into various co-ops, internships, and career paths within
-              software engineering which can help them make informed decisions
-              about their future career goals.
-            </p>
-          </div>
-          <div>
-            <h3>Networking Opportunities</h3>
-            <p>
-              Joining our club can help students build relationships with other
-              students who share their interests, as well as with industry
-              professionals who may be invited to speak at club events. These
-              connections can be valuable for finding internships, job
-              opportunities, and other career-related opportunities
-            </p>
-          </div>
-          <div>
-            <h3>Leadership and teamwork experience</h3>
-            <p>
-              Students have the opportunity to develop leadership and teamwork
-              skills by taking on responsibilities such as organizing events,
-              leading projects, and collaborating with others
-            </p>
-          </div>
-          <div>
-            <h3>Portfolio building</h3>
-            <p>
-              Participating in club projects or creating personal projects with
-              the help of the club can allow students to showcase their skills
-              and add to their professional portfolio.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div id="most-current-activities">
-      <h1>Most Current Activities</h1>
+    <div id="upcoming-events-container">
+      <h1>Upcoming Events</h1>
       <div id="container-two">
-        <div>AMA - Ask Me Anything</div>
-        <div>Coding Workshop</div>
-        <div>Monthly Meetings</div>
-        <div>And More+</div>
+        <!--<p>
+          We are currently working on new and exciting events for this semester.
+          Stay tuned!
+        </p>-->
+      </div>
+      <div id="upcoming-events">
+        <a href="https://forms.gle/P7PhTwRyK13cYk9L6">
+          <img id="upcoming-events" src="./images/eventPosters/IDEA-Networking-Event-Poster.jpg" />
+        </a>
       </div>
     </div>
-
+  </div>
     <%- include('footer') %>
   </body>
   <script type="text/javascript" src="./javascript/script1.js"></script>
